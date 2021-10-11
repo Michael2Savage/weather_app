@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+
+html {
+    background-color:  rgb(36, 36, 36);
+    background-repeat: no-repeat;
+}
+
+.content{
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+small{
+    opacity: .4;
+}
+
+
+#ct_logo{
+    background-color:  rgb(36, 36, 36);
+    width: 35px;
+    margin: 20px 15px 30px;
+}
+
+#weather_logo{
+    background-color:  rgb(36, 36, 36);
+    width: 100px;
+}
+
+.my_form{
+    background-color:  rgb(36, 36, 36);
+    width: 300px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.container1{
+    background-color:  rgb(36, 36, 36);
+    font-family: sans-serif;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+#only_button{
+    background-color: rgb(255, 117, 4);
+    border-color:rgb(255, 108, 9)
+}
+
+h2{
+    color:rgb(255, 255, 255)
+}
+
+h3{
+    color:rgb(255, 255, 255)
+}
+
+h4{
+    color:rgb(255, 255, 255)
+}
+
+#api_call_results{
+    width: 400px;
+    margin-left: auto;
+}
